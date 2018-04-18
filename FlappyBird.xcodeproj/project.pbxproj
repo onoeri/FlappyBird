@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8867043F2085DD57009A49C6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8867043E2085DD57009A49C6 /* AVFoundation.framework */; };
+		886704412085DF0B009A49C6 /* sound01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 886704402085DF0A009A49C6 /* sound01.mp3 */; };
 		88B33559207F506E00235FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B33558207F506E00235FE3 /* AppDelegate.swift */; };
 		88B3355B207F506E00235FE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B3355A207F506E00235FE3 /* ViewController.swift */; };
 		88B3355E207F506E00235FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B3355C207F506E00235FE3 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8867043E2085DD57009A49C6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		886704402085DF0A009A49C6 /* sound01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound01.mp3; sourceTree = "<group>"; };
 		88B33555207F506E00235FE3 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B33558207F506E00235FE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88B3355A207F506E00235FE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +35,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8867043F2085DD57009A49C6 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8867043D2085DD57009A49C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8867043E2085DD57009A49C6 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88B3354C207F506E00235FE3 = {
 			isa = PBXGroup;
 			children = (
 				88B33557207F506E00235FE3 /* FlappyBird */,
 				88B33556207F506E00235FE3 /* Products */,
+				8867043D2085DD57009A49C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +77,7 @@
 				88B3355F207F507000235FE3 /* Assets.xcassets */,
 				88B33561207F507000235FE3 /* LaunchScreen.storyboard */,
 				88B33564207F507000235FE3 /* Info.plist */,
+				886704402085DF0A009A49C6 /* sound01.mp3 */,
 			);
 			path = FlappyBird;
 			sourceTree = "<group>";
@@ -128,6 +143,7 @@
 				88B33563207F507000235FE3 /* LaunchScreen.storyboard in Resources */,
 				88B33560207F507000235FE3 /* Assets.xcassets in Resources */,
 				88B3355E207F506E00235FE3 /* Main.storyboard in Resources */,
+				886704412085DF0B009A49C6 /* sound01.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
